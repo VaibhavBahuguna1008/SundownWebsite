@@ -10,11 +10,15 @@
     font-family: "nuer";
     src: url(./NeueHaasDisplayRoman.ttf);
 }
+@font-face{
+    font-family: gil;
+    src: url(./Gilroy-Light.otf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "gilroy";
+    font-family: gil;
 }
 body, html{
     height: 100%;
